@@ -5,6 +5,19 @@ This repository provides a complete and modular pipeline to convert `.hdf` RGB a
 
 ## 🔁 Workflow Overview
 
+### 0. 🛠️ Requirements
+
+Install dependencies:
+```bash
+pip install open3d h5py numpy opencv-python trimesh torch
+```
+
+DepthAnythingV2 has additional requirements; refer to their setup guide:
+🔗 https://github.com/DepthAnything/Depth-Anything-V2
+
+---
+
+
 ### 1. 🎞 Convert `.hdf` to RGB video
 
 Use `hdf2vid_trim.py` to generate a video from the `color` dataset in an HDF file:
@@ -86,17 +99,6 @@ You can compare corresponding frames between `point_clouds/gt/` and `point_cloud
 
 ---
 
-## 🛠️ Requirements
-
-Install dependencies:
-```bash
-pip install open3d h5py numpy opencv-python trimesh torch
-```
-
-DepthAnythingV2 has additional requirements; refer to their setup guide:
-🔗 https://github.com/DepthAnything/Depth-Anything-V2
-
----
 
 ## 📜 License
 
