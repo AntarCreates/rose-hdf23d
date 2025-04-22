@@ -97,6 +97,8 @@ python pointcloud_filter.py input_file.ply --visualize
 
 You can compare corresponding frames between `point_clouds/gt/` and `point_clouds/monocular/` to evaluate performance.
 
+![image](https://github.com/user-attachments/assets/25c01bdc-812a-4e5a-9b05-134cbd729361)
+
 ---
 
 
