@@ -109,6 +109,3 @@ This project is licensed under the [MIT License](LICENSE).
 **Antar Mazumder**
 
 For inquiries or contributions, feel free to open an issue or pull request!
-```
-
-Let me know if you'd like badges (e.g. Python version, License, etc.) added at the top — or a diagram flowchart in Markdown or image form!
